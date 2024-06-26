@@ -9,133 +9,47 @@
     </title>
     <style>
       p {
-        font-family: Roboto, Arial;
-        margin-top: 0;
-        margin-bottom: 0;
+        font-family: Arial;
       }
 
-      .parent-div {
-        display: block;
-        margin-bottom: 20px;
+      .header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px;
+        background-color: rgb(120, 82, 178);
+        color: white;
       }
 
-      .channel-img {
-        display: inline-block;
-        margin-right: 20px;
-        padding-top: 6px;
-      }
-
-      .thumbnail {
-        width: 50px;
-        border-radius: 25px;
-      }
-
-      .cat-desc {
-        display: inline-block;
-        margin-right: 150px;
-        vertical-align: top;
-      }
-
-      .follow-button {
-        display: inline-block;
-        vertical-align: top;
-        margin-top: 20px;
-      }
-
-      .cat-name {
-        font-size: 16px;
+      .home-link {
         font-weight: bold;
-        margin-bottom: 5px;
       }
 
-      .other-desc {
-        font-size: 14px;
-        color: rgb(96, 96, 96);
+      .text-box {
+        width: 500px;
+        border: none;
+        border-radius: 20px;
+        padding: 10px 15px;
       }
 
       button {
+        background-color: rgb(120, 82, 178);
         color: white;
-        background-color: rgb(34, 125, 236);
-        border: none;
+        font-size: 16px;
+        border-width: 1px;
+        border-style: solid;
+        border-color: white;
         border-radius: 2px;
-        padding: 5px 10px 5px 10px;
-        font-weight: bold;
+        padding: 8px 15px;
       }
     </style>
   </head>
   <body>
-
-    <div class="parent-div">
-      <div class="channel-img">
-        <img class="thumbnail"  src="channel-pictures/channel-1.jpeg" alt="">
-      </div>
-  
-      <div class="cat-desc">
-        <p class="cat-name">
-        oliver
-        </p>
-        <p class="other-desc">
-          the cat
-        </p>
-        <p class="other-desc">
-          popular
-        </p>
-      </div>
-  
-      <div class="follow-button">
-        <button>
-          Follow
-        </button>
-      </div>
+    <div class="header">
+      <div class="home-link">Home</div>
+      <input class="text-box" placeholder="Search">
+      <button>Download</button>
     </div>
-
-    <div class="parent-div">
-      <div class="channel-img">
-        <img class="thumbnail"  src="channel-pictures/channel-1.jpeg" alt="">
-      </div>
-  
-      <div class="cat-desc">
-        <p class="cat-name">
-        oliver
-        </p>
-        <p class="other-desc">
-          the cat
-        </p>
-        <p class="other-desc">
-          popular
-        </p>
-      </div>
-  
-      <div class="follow-button">
-        <button>
-          Follow
-        </button>
-      </div>
-    </div>
-
-    <div class="parent-div">
-      <div class="channel-img">
-        <img class="thumbnail"  src="channel-pictures/channel-1.jpeg" alt="">
-      </div>
-  
-      <div class="cat-desc">
-        <p class="cat-name">
-        oliver
-        </p>
-        <p class="other-desc">
-          the cat
-        </p>
-        <p class="other-desc">
-          popular
-        </p>
-      </div>
-  
-      <div class="follow-button">
-        <button>
-          Follow
-        </button>
-      </div>
-    </div>
-
   </body>
 </html>
